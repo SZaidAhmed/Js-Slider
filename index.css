@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: lightgrey;
+}
+.slide{
+    height: 70vh;
+    width: 80vw;
+    background-size:cover;
+}
+.left {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    color: royalblue;
+    padding: 10px;
+} 
+.right{
+    padding: 10px;
+    color: royalblue;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 10vw;
+    top: 45%;
+}
+.right:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+.left:hover {
+    background-color: rgba(0,0,0,0.6);
+}
